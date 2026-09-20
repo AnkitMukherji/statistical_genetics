@@ -1,0 +1,19 @@
+
+Lesson: 03_prior_sensitivity
+coloc: 6.0.3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf
+ 1.37e-17  2.92e-09  8.53e-11  8.28e-03  9.92e-01
+[1] "PP abf for shared variant: 99.2%"
+Results pass decision rule H4 > 0.5
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf
+ 5.58e-07  1.61e-05  1.26e-03  2.67e-02  9.72e-01
+[1] "PP abf for shared variant: 97.2%"
+Results pass decision rule H4 > 0.5
+Results pass decision rule H4 > 3*H3 & H0 < 0.1
+   analysis nsnps           H0           H1           H2        H3        H4
+1  original   500 7.512034e-16 1.602424e-07 4.687918e-09 0.4549183 0.5450815
+47   weaker   500 9.510466e-06 2.745984e-04 2.148149e-02 0.4546780 0.5235564
+            p12 passes_H4_0.5 passes_compound
+1  1.000000e-08          TRUE           FALSE
+47 3.162278e-08          TRUE           FALSE
+Use the exported grid to read thresholds; do not assume the prose's threshold is exact.

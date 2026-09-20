@@ -1,0 +1,47 @@
+
+Lesson: 06_deprecated_conditioning
+coloc: 6.0.3
+HISTORICAL EXAMPLE: conditioning is deprecated upstream; prefer SuSiE.
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf
+ 8.78e-26  6.80e-07  1.53e-22  1.85e-04  1.00e+00
+[1] "PP abf for shared variant: 100%"
+Results pass decision rule H4 > 0.9
+     s105       s78
+11.180489  5.351394
+   s105
+6.42341
+    s105
+11.18049
+     s105      s108      s156
+ 6.423410 -3.226812  3.741284
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf
+ 8.76e-25  6.79e-06  1.53e-21  1.85e-03  9.98e-01
+[1] "PP abf for shared variant: 99.8%"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf
+ 1.83e-05  5.53e-04  3.19e-02  9.64e-01  3.52e-03
+[1] "PP abf for shared variant: 0.352%"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf
+ 5.44e-04  2.33e-05  9.49e-01  4.04e-02  1.02e-02
+[1] "PP abf for shared variant: 1.02%"
+Coloc analysis of trait 1, trait 2
+
+SNP Priors
+   p1    p2   p12
+1e-04 1e-04 1e-06
+
+Hypothesis Priors
+       H0   H1   H2       H3    H4
+ 0.897005 0.05 0.05 0.002495 5e-04
+
+Posterior
+Key: <hit2>
+   nsnps   hit1   hit2           H0           H1           H2         H3
+   <int> <char> <char>        <num>        <num>        <num>      <num>
+1:   500   s105   s105 8.674493e-25 6.719334e-06 1.511759e-21 0.01171021
+2:   500    s78   s105 1.830995e-05 5.531424e-04 3.190992e-02 0.96399665
+            H4
+         <num>
+1: 0.988283067
+2: 0.003521974
+Results pass decision rule H4 > 0.9
+Results fail decision rule H4 > 0.9

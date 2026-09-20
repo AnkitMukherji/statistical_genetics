@@ -1,0 +1,6 @@
+PASS: ABF reproduces the reference D1/D2 posterior.
+PASS: fine-mapping and H0-H4 probabilities are normalized.
+PASS: the H4 credible set reaches 95% with the crossing SNP included.
+PASS: H4 increases with p12 in both sensitivity examples.
+PASS: SuSiE identifies a shared pair and a distinct pair of signals.
+PASS: variant weights and deprecated conditioning results are valid.

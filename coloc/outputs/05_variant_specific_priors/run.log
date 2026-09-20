@@ -1,0 +1,24 @@
+
+Lesson: 05_variant_specific_priors
+coloc: 6.0.3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf
+ 1.38e-18  2.94e-10  8.59e-12  8.34e-04  9.99e-01
+[1] "PP abf for shared variant: 99.9%"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf
+ 8.26e-19  2.91e-10  5.16e-12  8.18e-04  9.99e-01
+[1] "PP abf for shared variant: 99.9%"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf
+ 1.38e-18  2.94e-10  8.59e-12  8.34e-04  9.99e-01
+[1] "PP abf for shared variant: 99.9%"
+1 distances lie outside the density grid; using the nearest endpoint, as in the tutorial. Reconsider this policy for real data.
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf
+ 2.61e-16  3.41e-10  1.63e-09  1.13e-03  9.99e-01
+[1] "PP abf for shared variant: 99.9%"
+                 analysis nsnps           H0           H1           H2
+1                 uniform   500 1.377000e-18 2.937336e-10 8.593226e-12
+2 first_100_double_weight   500 8.262373e-19 2.911768e-10 5.156170e-12
+3     TSS_distance_trait1   500 2.614660e-16 3.414633e-10 1.631690e-09
+            H3        H4
+1 0.0008338917 0.9991661
+2 0.0008179198 0.9991821
+3 0.0011320490 0.9988679

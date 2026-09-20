@@ -1,0 +1,3 @@
+# Regenerate R objects locally; publish readable tables, figures, and logs.
+outputs/**/*.rds
+Rplots.pdf
