@@ -202,3 +202,8 @@ Results are overwritten when their lesson is rerun. See [RESULTS.md](RESULTS.md)
 for the tested numerical outcomes and [SOURCES.md](SOURCES.md) for attribution,
 upstream references, and deliberate adaptations. The root lockfile contains the
 dependencies; no second `renv` project is created inside this section.
+
+## Run and inspect the code
+
+- [Lesson script guide](scripts/README.md) explains each worked example.
+- [Shared utilities](R/README.md) documents the functions used across lessons.

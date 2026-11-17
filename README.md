@@ -2,6 +2,10 @@
 
 R analyses and annotated lessons focused on interpreting genetic association evidence. The current module explores **Bayesian colocalisation**, from input alignment and model assumptions to prior sensitivity and multiple causal signals.
 
+## Folder guides
+
+- [coloc](coloc/README.md)
+
 ## Colocalisation module
 
 [Start with the complete tutorial](coloc/README.md), then compare the [recorded results](coloc/RESULTS.md) with the [source and adaptation notes](coloc/SOURCES.md).
